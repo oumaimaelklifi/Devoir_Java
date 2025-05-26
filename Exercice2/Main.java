@@ -17,10 +17,9 @@ public class Main {
         chien2.afficherInfo();
         chien2.seDeplacer();
 
-        // Affichage du nombre total d'animaux
         Animal.totalAnimaux();
 
-        // Tableau d'animaux
+ 
         Animal[] animaux = {chien1, oiseau1, chien2};
 
         System.out.println("\nParcours du tableau :");
